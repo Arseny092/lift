@@ -1,0 +1,71 @@
+.tech-header {
+    margin-top: 30px;
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.tech-container {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 0 auto;
+}
+.tech {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+.tech-elem {
+    text-indent: 1.5em;
+    margin: 0 auto;
+    width: 300px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.tech-elem h3 {
+    text-align: center;
+}
+.tech-elem_1 {
+    display: block;
+    background-image: url("/static/shlz.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 160px;
+}
+.tech-elem_2 {
+    display: block;
+    background-image: url("/static/kone.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 160px;
+}
+.tech-elem_3 {
+    display: block;
+    background-image: url("/static/otis.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 160px;
+}
+@media (min-width: 320px) {
+    .tech-container {
+        width: 100%;
+        display: flex;
+        box-sizing: border-box;
+    }
+}
+@media (min-width: 960px) {
+    .tech-container {
+        flex-direction: row;
+    }
+    .tech-elem_3 {
+        margin-top: 120px;
+    }
+    .tech-elem_1 {
+        margin-top: 120px;
+        margin-bottom: 0px;
+    }
+}

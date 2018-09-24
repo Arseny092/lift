@@ -1,0 +1,29 @@
+.contacts {
+    margin: 0 auto;
+    background-color: #800000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+.contacts-header {
+    margin-top: 20px;
+}
+.contacts-content {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+.contacts-content a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.contacts-content a:hover {
+    color: black;
+}

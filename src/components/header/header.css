@@ -1,0 +1,32 @@
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.header-nav {
+    display: flex;
+    flex-direction: row;
+}
+.header-nav-el {
+    list-style: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 1rem;
+    padding-top: 21px;
+}
+.header-nav-el a {
+    text-decoration: none;
+    color: black;
+}
+.header-nav-el a:hover {
+    color: #800000;
+    border-bottom: 2px solid #800000;
+}
+.header-container h1 a {
+    text-transform: uppercase;
+}
+@media (min-width: 1200px) {
+    .header-container {
+        justify-content: space-between;
+    }
+}

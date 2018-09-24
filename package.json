@@ -1,0 +1,46 @@
+{
+  "name": "lift-service",
+  "description": "Lift site",
+  "version": "1.0.0",
+  "author": "https://github.com/Arseny092",
+  "dependencies": {
+    "gatsby": "^1.9.277",
+    "gatsby-link": "^1.6.44",
+    "gatsby-plugin-react-helmet": "^2.0.11",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "informed": "^1.10.4",
+    "invariant": "^2.2.4",
+    "pure-react-carousel": "^1.13.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-grid-gallery": "^0.4.11",
+    "react-helmet": "^5.2.0",
+    "react-iframe": "^1.2.0",
+    "react-images": "^0.5.17",
+    "react-media": "^1.8.0",
+    "react-photo-gallery": "^6.0.28",
+    "react-responsive-carousel": "^3.1.41",
+    "@fortawesome/fontawesome-svg-core": "^1.2.0-14",
+    "@fortawesome/free-brands-svg-icons": "^5.1.0-11",
+    "@fortawesome/free-regular-svg-icons": "^5.1.0-11",
+    "@fortawesome/free-solid-svg-icons": "^5.1.0-11",
+    "@fortawesome/react-fontawesome": "0.1.0-11",
+    "react-sticky": "^6.0.3"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.13.5"
+  },
+  "repository": {
+    "type": "git"
+  }
+}

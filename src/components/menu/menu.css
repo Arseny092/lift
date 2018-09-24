@@ -1,0 +1,20 @@
+.menu-icon {
+    padding-top: 21px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.menu-nav {
+    margin: 0 auto;
+    list-style-type: none;
+    text-transform: uppercase;
+    background-color: white;
+}
+.menu-nav li a {
+    display: block;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+.menu-nav li a:hover {
+    color: #800000;
+}
