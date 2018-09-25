@@ -715,6 +715,11 @@ pre tt:after {
 }
 @media (min-width: 960px) {
   .carousel {
-    max-height: 100vh;
+    max-height: 70vh;
+  }
+}
+@media (min-width: 1200px) {
+  .carousel {
+    max-height: 90vh;
   }
 }

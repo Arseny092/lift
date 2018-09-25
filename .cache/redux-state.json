@@ -1,13 +1,23 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/arseny/Documents/lift/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/arseny/Documents/lift/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "8402238cbde191ed7e1084fb0d529bba",
+        "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
@@ -369,6 +379,26 @@
         "license": "MIT",
         "dependencies": [
           {
+            "name": "@fortawesome/fontawesome-svg-core",
+            "version": "^1.2.0-14"
+          },
+          {
+            "name": "@fortawesome/free-brands-svg-icons",
+            "version": "^5.1.0-11"
+          },
+          {
+            "name": "@fortawesome/free-regular-svg-icons",
+            "version": "^5.1.0-11"
+          },
+          {
+            "name": "@fortawesome/free-solid-svg-icons",
+            "version": "^5.1.0-11"
+          },
+          {
+            "name": "@fortawesome/react-fontawesome",
+            "version": "0.1.0-11"
+          },
+          {
             "name": "gatsby",
             "version": "^1.9.277"
           },
@@ -433,24 +463,8 @@
             "version": "^3.1.41"
           },
           {
-            "name": "@fortawesome/fontawesome-svg-core",
-            "version": "^1.2.0-14"
-          },
-          {
-            "name": "@fortawesome/free-brands-svg-icons",
-            "version": "^5.1.0-11"
-          },
-          {
-            "name": "@fortawesome/free-regular-svg-icons",
-            "version": "^5.1.0-11"
-          },
-          {
-            "name": "@fortawesome/free-solid-svg-icons",
-            "version": "^5.1.0-11"
-          },
-          {
-            "name": "@fortawesome/react-fontawesome",
-            "version": "0.1.0-11"
+            "name": "react-scroll-parallax",
+            "version": "^1.3.5"
           },
           {
             "name": "react-sticky",
@@ -561,14 +575,16 @@
       "siteMetadata": {
         "title": "ЭМ"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-09-24T18:21:39.865Z",
+      "buildTime": "2018-09-25T08:25:26.680Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "01436f6c22273664f6c2eb72e16e6314",
+        "contentDigest": "e57c4dd738a851d62aac4f982c9f0bfc",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -589,7 +605,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "300b5d24107309473b22a432fc0f8a24",
+        "contentDigest": "fa19964546f8776704f94507a2917764",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -610,7 +626,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5c35227c75a85cb12b9f459143dd934e",
+        "contentDigest": "80990243e844e124fb60fc698cdf3e79",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -631,7 +647,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "46f09c54f6ad97cfe673a49396f44834",
+        "contentDigest": "4e084efd87c5402761df6626d0efd0c0",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -639,7 +655,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "3cec0b44e899a097249117f25e13a5bb"
+    "PLUGINS_HASH": "818aa148e8e537b85d39206477600ba8"
   },
   "componentDataDependencies": {
     "nodes": {

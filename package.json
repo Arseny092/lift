@@ -4,6 +4,11 @@
   "version": "1.0.0",
   "author": "https://github.com/Arseny092",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.0-14",
+    "@fortawesome/free-brands-svg-icons": "^5.1.0-11",
+    "@fortawesome/free-regular-svg-icons": "^5.1.0-11",
+    "@fortawesome/free-solid-svg-icons": "^5.1.0-11",
+    "@fortawesome/react-fontawesome": "0.1.0-11",
     "gatsby": "^1.9.277",
     "gatsby-link": "^1.6.44",
     "gatsby-plugin-react-helmet": "^2.0.11",
@@ -20,11 +25,7 @@
     "react-media": "^1.8.0",
     "react-photo-gallery": "^6.0.28",
     "react-responsive-carousel": "^3.1.41",
-    "@fortawesome/fontawesome-svg-core": "^1.2.0-14",
-    "@fortawesome/free-brands-svg-icons": "^5.1.0-11",
-    "@fortawesome/free-regular-svg-icons": "^5.1.0-11",
-    "@fortawesome/free-solid-svg-icons": "^5.1.0-11",
-    "@fortawesome/react-fontawesome": "0.1.0-11",
+    "react-scroll-parallax": "^1.3.5",
     "react-sticky": "^6.0.3"
   },
   "keywords": [
