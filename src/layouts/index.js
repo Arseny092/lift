@@ -8,15 +8,16 @@ import './index.css'
 import CarouselMain from '../components/carousel/carousel';
 import TechList from '../components/tech/tech';
 import ServiceList from '../components/services/services';
-import PriceList from '../components/price/price';
 import ContactList from '../components/contacts/contacts';
 import Map from '../components/map/map';
 import MainForm from '../components/form/form';
 import Info from "../components/info/info";
-import Social from "../components/social/social";
+
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 const Layout = ({ children, data }) => (
   <div>
+      <ParallaxProvider>
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
@@ -40,6 +41,7 @@ const Layout = ({ children, data }) => (
       <ContactList/>
       <Map/>
       <MainForm/>
+      </ParallaxProvider>
   </div>
 )
 
