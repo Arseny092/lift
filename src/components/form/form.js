@@ -6,9 +6,7 @@ class MainForm extends React.Component {
         return (
             <div className="form-container" id="form">
                 <h1 className="form-header">Форма обратной связи</h1>
-                <form method="post" name="contact-form" data-netlify="true"
-                      data-netlify-honeypot="bot-field"
-                      className="form">
+                <form action="https://formspree.io/arsenyparamonov@gmail.com" method="POST" name="contact-form" className="form">
                     <input type="hidden" name="bot-field" />
                     <div className="form-name">
                         <label htmlFor="name">Имя</label>
