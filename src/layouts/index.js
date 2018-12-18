@@ -21,8 +21,8 @@ const Layout = ({ children, data }) => (
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
-        { name: 'description', content: 'EP production personal site' },
-        { name: 'keywords', content: 'ep production, studio, dj, beatmaking' },
+        { name: 'description', content: 'Электромонтаж персональный сайт' },
+        { name: 'keywords', content: 'Электромонтаж, монтаж лифтов, обслуживание лифтов, монтаж лифтов в Туле, монтаж лифтов в Москве' },
       ]}
       link={[
           { rel: 'shortcut icon', type: 'image/png', href: "/static/favicon.png" }
